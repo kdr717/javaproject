@@ -1,6 +1,6 @@
 node {
 	stage('Checkout code') {
-         git url: 'https://github.com/jilu407/test-maven.git'
+         git 'https://github.com/kdr717/javaproject.git'
            
     }
 	stage('Build'){
